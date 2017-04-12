@@ -24,11 +24,18 @@ Install the dependencies and devDependencies.
 ```sh
 $ npm install
 ```
-Create a Database named 'bugsdb' and collection name 'bugs'
 Run MongoDB in one terminal
 
 ```sh
 $ mongod
+
+```
+In another terminal, Create a Database named 'bugsdb' and collection name 'bugs'
+```sh
+$ mongo
+$ use bugsdb
+$ db.createCollection('bugs')
+
 ```
 Start the app in another terminal
 
