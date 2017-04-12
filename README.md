@@ -16,7 +16,7 @@ This app is developed using the following technologies:
 Clone the repository.
 
 ```sh
-$ https://github.com/tejaskarelia17/ticketSystem.git
+$ git clone https://github.com/tejaskarelia17/ticketSystem.git
 $ cd ticketSystem
 ```
 Install the dependencies and devDependencies.
